@@ -51,12 +51,12 @@ def download_venvbootstrapper(download_directory_path : str | os.PathLike | None
 (lambda urllib: (lambda _mod: (lambda Path: [[locals()['download_directory_path'].mkdir(parents=True, exist_ok=True), Path(locals()['download_directory_path'], 'venvbootstrapper.py').write_bytes(urllib.request.build_opener(urllib.request.HTTPCookieProcessor()).open(fullurl='https://raw.githubusercontent.com/CamarataM/VenvBootstrapper/refs/heads/main/venvbootstrapper/venvbootstrapper.py').read())][-1] for locals()['download_directory_path'] in [Path(locals().get('download_directory_path', Path.cwd()))]][0])(_mod.Path))(__import__('pathlib', {}, {}, ['Path'])))(__import__('urllib.request'))
 ```
 
-### Via [GitHub Releases]()
+### Via [GitHub Releases](https://github.com/CamarataM/VenvBootstrapper/releases/latest)
 
-### Via [GitHub Source Code]().
+### Via [GitHub Source Code](https://github.com/CamarataM/VenvBootstrapper/blob/main/venvbootstrapper/venvbootstrapper.py)
 
 ## License
-`venvbootstrapper.py` is licensed under the [Zero Clause BSD license](https://landley.net/toybox/license.html), meaning you may use it however you like with/without attribution **as long as you agree to waive any liability of the original authors for any damage the software causes**.
+`venvbootstrapper.py` is licensed under the [Zero Clause BSD license](https://landley.net/toybox/license.html), meaning you may use it however you like with/without attribution **as long as you agree to waive any liability of the original authors for any damage the software may cause**.
 
 The code inside `tests` and `utilities` is licensed under the [MIT license](https://opensource.org/license/MIT).
 
