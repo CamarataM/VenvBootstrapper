@@ -43,12 +43,12 @@ def download_venvbootstrapper(download_directory_path : str | os.PathLike | None
 	from pathlib import Path
 	locals()['download_directory_path'] = Path(locals().get('download_directory_path', Path.cwd()))
 	locals()['download_directory_path'].mkdir(parents=True, exist_ok=True)
-	Path(locals()['download_directory_path'], 'venvbootstrapper.py').write_bytes(urllib.request.build_opener(urllib.request.HTTPCookieProcessor()).open(fullurl='').read())
+	Path(locals()['download_directory_path'], 'venvbootstrapper.py').write_bytes(urllib.request.build_opener(urllib.request.HTTPCookieProcessor()).open(fullurl='https://raw.githubusercontent.com/CamarataM/VenvBootstrapper/refs/heads/main/venvbootstrapper/venvbootstrapper.py').read())
 ```
 
 ### Python Method One-Liner (generated using [Flatliner](https://github.com/hhc97/flatliner-src))
 ```python
-(lambda urllib: (lambda _mod: (lambda Path: [[locals()['download_directory_path'].mkdir(parents=True, exist_ok=True), Path(locals()['download_directory_path'], 'venvbootstrapper.py').write_bytes(urllib.request.build_opener(urllib.request.HTTPCookieProcessor()).open(fullurl='').read())][-1] for locals()['download_directory_path'] in [Path(locals().get('download_directory_path', Path.cwd()))]][0])(_mod.Path))(__import__('pathlib', {}, {}, ['Path'])))(__import__('urllib.request'))
+(lambda urllib: (lambda _mod: (lambda Path: [[locals()['download_directory_path'].mkdir(parents=True, exist_ok=True), Path(locals()['download_directory_path'], 'venvbootstrapper.py').write_bytes(urllib.request.build_opener(urllib.request.HTTPCookieProcessor()).open(fullurl='https://raw.githubusercontent.com/CamarataM/VenvBootstrapper/refs/heads/main/venvbootstrapper/venvbootstrapper.py').read())][-1] for locals()['download_directory_path'] in [Path(locals().get('download_directory_path', Path.cwd()))]][0])(_mod.Path))(__import__('pathlib', {}, {}, ['Path'])))(__import__('urllib.request'))
 ```
 
 ### Via [GitHub Releases]()

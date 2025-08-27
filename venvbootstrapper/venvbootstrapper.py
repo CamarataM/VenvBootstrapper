@@ -52,7 +52,7 @@ def download_venvbootstrapper(download_directory_path : str | os.PathLike | None
 	from pathlib import Path
 	locals()['download_directory_path'] = Path(locals().get('download_directory_path', Path.cwd()))
 	locals()['download_directory_path'].mkdir(parents=True, exist_ok=True)
-	Path(locals()['download_directory_path'], 'venvbootstrapper.py').write_bytes(urllib.request.build_opener(urllib.request.HTTPCookieProcessor()).open(fullurl='').read())
+	Path(locals()['download_directory_path'], 'venvbootstrapper.py').write_bytes(urllib.request.build_opener(urllib.request.HTTPCookieProcessor()).open(fullurl='https://raw.githubusercontent.com/CamarataM/VenvBootstrapper/refs/heads/main/venvbootstrapper/venvbootstrapper.py').read())
 
 # Restarts the current script under the virtual environment if it is not already.
 def create_and_activate_virtualenv(use_script_directory_for_virtualenv_name : bool = False, clear : bool = False, virtualenvs_folder_path : str | os.PathLike | None = None):
