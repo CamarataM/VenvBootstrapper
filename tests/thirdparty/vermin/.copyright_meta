@@ -1,0 +1,8 @@
+[root]
+name = vermin
+author = Morten Kristensen
+license = MIT
+year = 2018
+
+[license_urls]
+license_url_license = https://raw.githubusercontent.com/netromdk/vermin/refs/heads/master/LICENSE.txt

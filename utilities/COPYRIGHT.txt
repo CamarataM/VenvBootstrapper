@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://www.example.com/software/project
+Upstream-Name: VenvBootstrapperUtilities
+Upstream-Contact: CamarataM <CamarataM@outlook.com>
+
+Files: 
+ thirdparty/flatliner-src/*
+Comment: flatliner-src
+Copyright: 2023 Haocheng Hu
+License: MIT
+
+Files: 
+ ./*
+Comment: VenvBootstrapperUtilities
+Copyright: 2025 CamarataM
+License: MIT
+

@@ -1,0 +1,5 @@
+[vermin]
+exclusions =
+  hashlib.sha256(usedforsecurity)
+
+targets = 3.6

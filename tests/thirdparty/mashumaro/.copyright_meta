@@ -1,0 +1,8 @@
+[root]
+name = mashumaro
+author = Alexander Tikhonov
+license = Apache-2.0
+year = 2017
+
+[license_urls]
+license_url_license = https://raw.githubusercontent.com/Fatal1ty/mashumaro/refs/heads/master/LICENSE

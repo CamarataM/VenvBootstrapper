@@ -1,0 +1,23 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://www.example.com/software/project
+Upstream-Name: VenvBootstrapperTests
+Upstream-Contact: CamarataM <CamarataM@outlook.com>
+
+Files: 
+ thirdparty/vermin/*
+Comment: vermin
+Copyright: 2018 Morten Kristensen
+License: MIT
+
+Files: 
+ thirdparty/mashumaro/*
+Comment: mashumaro
+Copyright: 2017 Alexander Tikhonov
+License: Apache-2.0
+
+Files: 
+ ./*
+Comment: VenvBootstrapperTests
+Copyright: 2025 CamarataM
+License: MIT
+

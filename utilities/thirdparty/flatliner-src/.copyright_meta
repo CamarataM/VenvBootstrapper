@@ -1,0 +1,8 @@
+[root]
+name = flatliner-src
+author = Haocheng Hu
+license = MIT
+year = 2023
+
+[license_urls]
+license_url_license = https://raw.githubusercontent.com/hhc97/flatliner-src/refs/heads/master/LICENSE

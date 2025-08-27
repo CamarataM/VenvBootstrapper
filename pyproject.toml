@@ -1,0 +1,15 @@
+[project]
+	name = "VenvBootstrapper"
+	version = "0.1.0"
+	description = "Automatically creates a Python virtual environment, then installs the specified packages allowing for the easy sharing of a project to others without the need for additional dependency managers."
+	authors = [{ name = "CamarataM", email = "CamarataM@outlook.com" }]
+	readme = "README.md"
+	requires-python = ">=3.6"
+	dependencies = []
+
+[build-system]
+	requires = ["poetry-core>=2.0.0,<3.0.0"]
+	build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.test.dependencies]
+	vermin = "^1.6.0"

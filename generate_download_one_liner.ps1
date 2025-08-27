@@ -1,0 +1,1 @@
+poetry run python "./utilities/generate_download_one_liner.py"
